@@ -1,0 +1,48 @@
+
+Admin Table:
+
+admin_id	int	        NO	      PRI		auto_increment
+admin	    varchar(255)	YES			
+password    varchar(255)	YES		
+
+
+User Table:
+
+user_id	      	int		NO	PRI		auto_increment
+age	      	int		NO			
+first_name	varchar(255)	YES			
+gender		varchar(255)	YES			
+last_name	varchar(255)	YES			
+mobile_no	varchar(255)	YES			
+password	varchar(255)	YES			
+username	varchar(255)	YES				
+
+
+
+Medicine Table:
+
+medicine_id		int	NO	PRI		auto_increment
+description		varchar(255)	YES			
+expdate			varchar(255)	YES			
+manufacture_date	varchar(255)	YES			
+medicine_name		varchar(255)	YES			
+price			int	NO			
+seller			varchar(255)	YES			
+status			varchar(255)	YES			
+type			varchar(255)	YES
+
+
+contact_us Table:
+
+c_id		int	NO	PRI		auto_increment
+contact_no	bigint	NO			
+description	varchar(255)	YES			
+email_id	varchar(255)	YES			
+name		varchar(255)	YES	
+
+
+cart Table:
+medicine_id	int		NO	PRI		
+description	varchar(255)	YES			
+medicine_name	varchar(255)	YES			
+price		int		NO								
